@@ -34,7 +34,7 @@ main {
 
 /* Fix the background image and learn how to connect it */
 body{
-  background: url("assets/texture.jpg");
+  background: url("../assets/texture.jpg");
   background-color: #CAB88F;
   margin:5%;
   font-family:monospace;
