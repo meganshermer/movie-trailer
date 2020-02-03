@@ -22,9 +22,22 @@ main {
   Mobile: 
   * 384px = 24em
 */
-.img-2{
-  height: 15%;
-  width: 15%;
+.img-2 {
+
+  width:  100px;
+  height: 100px;
+  background-size: cover;
+}
+#player{
+  margin: 10%;
+}
+
+/* Fix the background image and learn how to connect it */
+body{
+  background: url("assets/texture.jpg");
+  background-color: #CAB88F;
+  margin:5%;
+  font-family:monospace;
 }
 @media only screen and (min-width: 0) { 
     
@@ -124,6 +137,14 @@ main {
   body:before {
        background: yellow;
        content: "Desktop Size";
+  }
+  .cast{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  body{
+    text-align: center;
   }
 
 }
