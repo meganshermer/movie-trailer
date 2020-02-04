@@ -1,27 +1,4 @@
 
-/* Diagnostic Styling 
-  * Change Background Color
-  * Outline Elements
-*/
-
-/* {
-    outline: 1px dotted black;
-}
-main { 
-  display: grid;
-  grid-template-columns: 1fr;
-}
-
-.cast {  
-  display: flex;
-  flex-wrap: wrap;
-}
-
-/* Media Queries */
-/* 
-  Mobile: 
-  * 384px = 24em
-*/
 .img-2 {
 
   width:  100px;
@@ -32,7 +9,7 @@ main {
   margin: 10%;
 }
 
-/* Fix the background image and learn how to connect it */
+
 body{
   background: url("../assets/texture.jpg");
   background-color: #CAB88F;
@@ -105,6 +82,10 @@ body{
       text-align: center;
       justify-content: center;
     }
+    .info{
+      font-size: 14px;
+      font-weight: bold;
+    }
   
 }
 
@@ -121,7 +102,20 @@ body{
        background: yellow;
        content: "Tablet Size";
   } 
-    
+
+    .cast{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  body{
+    text-align: center;
+  }
+  .info{
+    font-size: 16px;
+    font-weight: bold;
+  }
 }
 
 /* Desktop: 
@@ -142,9 +136,18 @@ body{
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
   }
   body{
     text-align: center;
+  }
+  header{
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .info{
+    font-size: 17px;
+    font-weight: bolder;
   }
 
 }
@@ -155,10 +158,26 @@ body{
 */
 @media screen and (min-width: 90em) { 
   
-  /* Diagnostic Styling. Delete When Done. */
   body:before {
        background: yellow;
        content: "Wide Desktop Size";
+  }
+  header{
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .cast{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  body{
+    text-align: center;
+  }
+  .info{
+    font-size: 19px;
+    font-weight: bolder;
   }
 
 }
