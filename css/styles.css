@@ -4,6 +4,8 @@
   width:  100px;
   height: 100px;
   background-size: cover;
+  border:15px solid rgb(138, 94, 65);
+  border-radius: 5%;
 }
 #player{
   margin: 10%;
@@ -16,6 +18,9 @@ body{
   margin:5%;
   font-family:monospace;
   background-blend-mode: lighten;
+}
+header{
+  background-color: rgb(184, 137, 105);
 }
 @media only screen and (min-width: 0) { 
   
