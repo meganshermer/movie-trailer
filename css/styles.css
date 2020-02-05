@@ -11,57 +11,24 @@
 
 
 body{
-  background: url("../assets/texture.jpg");
+  background: url("../assets/texture.png");
   background-color: #CAB88F;
   margin:5%;
   font-family:monospace;
+  background-blend-mode: lighten;
 }
 @media only screen and (min-width: 0) { 
-    
-  /* Diagnostic Styling. Delete When Done. */
-  body:before {
-       background: yellow;
-       content: "Mobile Size";
-  }
   
 }
 
-/* Tablet:  
-  * 768px = 48em 
-*/
 @media only screen and (min-width: 24em)  {
-    
-  /* Diagnostic Styling. Delete When Done. */
-  body:before {
-       background: yellow;
-       content: "Tablet Size";
-  }
+}
+
+@media screen and (min-width: 72em)  {
 
 }
 
-/* Desktop: 
-  * 1152px = 72em
-*/
-@media screen and (min-width: 72em)  { 
-  
-  /* Diagnostic Styling. Delete When Done. */
-  body:before {
-       background: yellow;
-       content: "Desktop Size";
-  }
-
-}
-
-/* Wide Desktop: 
-  * 1440px = 90em
-*/
 @media screen and (min-width: 90em) { 
-  
-  /* Diagnostic Styling. Delete When Done. */
-  body:before {
-       background: yellow;
-       content: "Wide Desktop Size";
-  }
 
 }
 
@@ -71,12 +38,6 @@ body{
 @media only screen 
   and (min-width: 0) 
   and (max-width: 48em)  { 
-    
-    /* Diagnostic Styling. Delete When Done. */
-    body:before {
-         background: yellow;
-         content: "Mobile Size";
-    }
     
     .cast {
       text-align: center;
@@ -88,20 +49,10 @@ body{
     }
   
 }
-
-/* Tablet:  
-  * 768px = 48em 
-    1023px = 63.9375em;
-*/
 @media only screen 
   and (min-width: 48em) 
   and (max-width: 64em)  {
-    
-  /* Diagnostic Styling. Delete When Done. */
-  body:before {
-       background: yellow;
-       content: "Tablet Size";
-  } 
+
 
     .cast{
     display:flex;
@@ -118,20 +69,10 @@ body{
   }
 }
 
-/* Desktop: 
-  * 1024px = 64em
-  * 64em and larger
-*/
 @media screen 
   and (min-width: 64em) 
   and (max-width: 90em) { 
-    
-  
-  /* Diagnostic Styling. Delete When Done. */
-  body:before {
-       background: yellow;
-       content: "Desktop Size";
-  }
+
   .cast{
     display:flex;
     flex-direction: row;
@@ -152,16 +93,8 @@ body{
 
 }
 
-/* Wide Desktop: 
-  * 1440px = 90em
-  * 90em and wider
-*/
-@media screen and (min-width: 90em) { 
+@media screen and (min-width: 90em) {
   
-  body:before {
-       background: yellow;
-       content: "Wide Desktop Size";
-  }
   header{
     font-weight: bold;
     font-size: 25px;
