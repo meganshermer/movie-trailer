@@ -13,14 +13,25 @@
 
 
 body{
-  background: url("../assets/texture.png");
+  background: url("../assets/flag.gif");
+  background-size: cover;
   background-color: #CAB88F;
   margin:5%;
   font-family:monospace;
-  background-blend-mode: lighten;
+  
+  
 }
+
+p{
+  background-color: rgb(138, 94, 65);
+  color: white;
+  font-weight: 300;
+  
+}
+
 header{
   background-color: rgb(184, 137, 105);
+  color: white;
 }
 @media only screen and (min-width: 0) { 
   
